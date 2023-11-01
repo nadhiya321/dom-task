@@ -1,0 +1,16 @@
+<html>
+    <head><title>Array method map function</title></head>
+    <script>
+        const hoppies=["Sports","Working","Reading"];
+        console.log(hoppies);
+        const index=hoppies.push("Speaking");
+        console.log(index);
+        //arrow function
+        const index1=hoppies.findIndex((item)=>item === "Sports");
+        console.log(index1)
+        const map=hoppies.map((item)=>item + "!");
+        console.log(map)
+        const editHoppies=hoppies.map((item)=>({text:item}));
+        console.log(editHoppies);
+    </script>
+</html>
